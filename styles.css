@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #444444;
+    background-color: #F5F5F5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0A0708;
+    padding: 20px 0;
+}
+
+header .logo {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero .cta-button {
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services, #portfolio, #testimonials, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#services h2, #portfolio h2, #testimonials h2, #contact h2 {
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: #B1B1B1;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contact form button {
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0A0708;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
